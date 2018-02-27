@@ -1,0 +1,38 @@
+baseurl = ""
+languageCode = "en-US"
+title = "Sylvain Chevalier, Développeur PHP Symfony à Nantes."
+relativeURLs = false
+
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+
+theme = "sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "profile.jpg"
+  author = "Sylvain Chevalier"
+  description = "Sylvain Chevalier, développeur web à Nantes"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Email         = "chevalier.syl20@gmail.com"
+  Github        = "Shivoham"
+  Stackoverflow = "shivoham"
+  Twitter       = "le_shivoham"
+  LinkedIn      = "sylvain-chevalier-b7524b83"
+  Soundcloud    = "le-shivoham"
+
+[[menu.main]]
+  name = "curriculum vitae"
+  identifier = "cv"
+  weight = 300
+  url = "/files/cv.pdf"

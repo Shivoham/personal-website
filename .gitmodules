@@ -1,0 +1,4 @@
+[submodule "themes/sustain"]
+    path = themes/sustain
+    url = https://github.com/nurlansu/hugo-sustain.git
+    ignore = dirty

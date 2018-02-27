@@ -1,5 +1,5 @@
 baseurl = ""
-languageCode = "en-US"
+languageCode = "fr-FR"
 title = "Sylvain Chevalier, Développeur PHP Symfony à Nantes."
 relativeURLs = false
 
@@ -7,7 +7,7 @@ relativeURLs = false
 disqusShortname = ""
 
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-114876249-1"
 
 theme = "sustain"
 

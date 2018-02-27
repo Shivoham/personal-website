@@ -35,4 +35,4 @@ theme = "sustain"
   name = "curriculum vitae"
   identifier = "cv"
   weight = 300
-  url = "/files/cv.pdf"
+  url = "files/cv.pdf"

@@ -7,10 +7,10 @@
         <div class="avatar">
           <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}">
         </div>
-        <h3>Coucou, moi c'est <strong>{{ .Site.Params.author }}</strong> et j'habite à Nantes.</h3>
-        <h3>Dans la vie, j'aime bien <a href="http://github.com/{{ .Site.Params.Social.Github }}" target="_blank">coder</a>, <a target="_blank" href="http://soundcloud.com/{{ .Site.Params.Social.Soundcloud }}">composer</a> de la musique sur ordinateur (MAO) et parfois <a target="_blank" href="https://www.youtube.com/watch?v=Bncr6h6MmOU">expliquer</a> des choses en vidéo.</h3>
-        <h3>Tu peux me contacter par <a href="mailto:{{ .Site.Params.Social.Email }}">email</a> ou par <a target="_blank" href="http://twitter.com/{{ .Site.Params.Social.Twitter }}">twitter </a> si le cœur t'en dit.</h3>
-        <h3>Que ta journée soit douce.</h3>
+        <p class="summary">Coucou, moi c'est <strong>{{ .Site.Params.author }}</strong> et j'habite à Nantes.</p>
+        <p class="summary">Dans la vie, j'aime bien <a href="http://github.com/{{ .Site.Params.Social.Github }}" target="_blank">coder</a>, <a target="_blank" href="http://soundcloud.com/{{ .Site.Params.Social.Soundcloud }}">composer</a> de la musique sur ordinateur (MAO) et parfois <a target="_blank" href="https://www.youtube.com/watch?v=Bncr6h6MmOU">expliquer</a> des choses en vidéo.</p>
+        <p class="summary">Tu peux me contacter par <a href="mailto:{{ .Site.Params.Social.Email }}">email</a> ou par <a target="_blank" href="http://twitter.com/{{ .Site.Params.Social.Twitter }}">twitter </a> si le cœur t'en dit.</p>
+        <p class="summary">Que ta journée soit douce.</p>
         {{ partial "social.html" . }}
         </div>
       </section>

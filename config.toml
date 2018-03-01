@@ -1,6 +1,6 @@
 baseurl = ""
 languageCode = "fr-FR"
-title = "Sylvain Chevalier, Développeur PHP Symfony à Nantes."
+title = "Sylvain Chevalier, Développeur PHP / Symfony à Nantes."
 relativeURLs = false
 
 # Enable comments by entering your Disqus shortname
@@ -17,7 +17,7 @@ theme = "sustain"
 [params]
   avatar = "profile.jpg"
   author = "Sylvain Chevalier"
-  description = "Sylvain Chevalier, développeur web à Nantes"
+  description = "Sylvain Chevalier, développeur web à Nantes. Symfony, Behat, PHPSpec, Agilité et tarte au citron meringuée."
 
   # Custom assets can be linked with their paths relative to static/
   custom_css = []

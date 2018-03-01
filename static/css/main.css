@@ -185,8 +185,7 @@ html, body {
 div.footer{
   border-bottom: 5px solid #045499;;
 }
-
-.summary {
+#about p, #about h2 {
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 24px;
@@ -195,11 +194,9 @@ div.footer{
   line-height: 1.1;
   color: inherit;
 }
-
 .main-title {
   margin: 0;
 }
-
 .main-title-content {
   position: absolute;
   text-indent: -99999px;

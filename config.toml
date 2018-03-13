@@ -15,7 +15,7 @@ theme = "sustain"
   post = "/:year/:month/:day/:slug"
 
 [params]
-  avatar = "profile.jpg"
+  avatar = "pp.png"
   author = "Sylvain Chevalier"
   description = "Sylvain Chevalier, développeur web à Nantes. Symfony, Behat, PHPSpec, Agilité et tarte au citron meringuée."
 
